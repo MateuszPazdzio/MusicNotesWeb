@@ -4,10 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MusicNotesStatsComponent } from './music-notes-stats/music-notes-stats.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MusicNotesStatsComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,

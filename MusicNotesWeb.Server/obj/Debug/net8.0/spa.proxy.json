@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:52374",
 "RedirectUrl": "",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "C:\\Users\\matip\\source\\repos\\MusicNotesWeb\\MusicNotesWeb.Server\\..\\musicnotesweb.client",
+"WorkingDirectory": "C:\\Users\\matip\\Source\\Repos\\MusicNotesWeb\\MusicNotesWeb.Server\\..\\musicnotesweb.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

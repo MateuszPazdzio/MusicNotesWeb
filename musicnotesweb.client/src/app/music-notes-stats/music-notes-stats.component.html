@@ -1,0 +1,27 @@
+<h2>Music Notes Game Stats</h2>
+
+<div *ngIf =" gameDetails.length === 0">
+  No game details available.
+</div>
+
+<div *ngFor="let game of gameDetails" class="game-card">
+  <h3>Game Created On: {{game.createdOn | date : 'short'}} </h3>
+
+  <!-- List all note attempts for this game -->
+  <table>
+    <thead>
+      <tr>
+        <th>Expected Note</th>
+        <th>Played Note</th>
+        <th>Octave</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let attempt of game.attempts">
+        <td>{{ attempt.expectedNote }}</td>
+        <td>{{ attempt.playedNote }}</td>
+        <td>{{ attempt.octaveNr }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "musicnotesweb.client", "musicnotesweb.client\musicnotesweb.client.esproj", "{3067BCEC-4AFD-53D3-6ACD-6B64298098FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicNotesWeb.Server", "MusicNotesWeb.Server\MusicNotesWeb.Server.csproj", "{2E86A71F-8FF3-4F3D-8C23-1B2283BBCEB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicNotesWeb", "MusicNotesWeb.Server\MusicNotesWeb.csproj", "{2E86A71F-8FF3-4F3D-8C23-1B2283BBCEB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicNotesWeb.Application", "MusicNotesWeb.Application\MusicNotesWeb.Application.csproj", "{5E7F1649-0A57-45BD-96C2-572B599078EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicNotesWeb.Infrastructure", "MusicNotesWeb.Infrastructure\MusicNotesWeb.Infrastructure.csproj", "{A6642944-D6BF-421B-802C-2B79555BADAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicNotesWeb.Entity", "MusicNotesWeb.Entity\MusicNotesWeb.Entity.csproj", "{C6944770-E01E-4E70-97D5-DC8B4A0EE589}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +29,18 @@ Global
 		{2E86A71F-8FF3-4F3D-8C23-1B2283BBCEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E86A71F-8FF3-4F3D-8C23-1B2283BBCEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E86A71F-8FF3-4F3D-8C23-1B2283BBCEB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E7F1649-0A57-45BD-96C2-572B599078EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7F1649-0A57-45BD-96C2-572B599078EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7F1649-0A57-45BD-96C2-572B599078EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7F1649-0A57-45BD-96C2-572B599078EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6642944-D6BF-421B-802C-2B79555BADAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6642944-D6BF-421B-802C-2B79555BADAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6642944-D6BF-421B-802C-2B79555BADAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6642944-D6BF-421B-802C-2B79555BADAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6944770-E01E-4E70-97D5-DC8B4A0EE589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6944770-E01E-4E70-97D5-DC8B4A0EE589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6944770-E01E-4E70-97D5-DC8B4A0EE589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6944770-E01E-4E70-97D5-DC8B4A0EE589}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
